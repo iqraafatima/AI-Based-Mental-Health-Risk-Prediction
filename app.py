@@ -333,7 +333,7 @@ with left:
         <div class="meta-label">Developed by</div>
         <div class="meta-value">
             <b style="color:var(--primary);">Iqra Fatima Umang</b><br>
-            Master of Computer Applications<br>
+            Master of Computer Science and Applications <br>
             Aligarh Muslim University
         </div>
         <div class="quote-card">
