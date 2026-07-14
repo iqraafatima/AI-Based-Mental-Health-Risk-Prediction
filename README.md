@@ -87,20 +87,7 @@ The dataset contains demographic, academic, lifestyle, and psychological attribu
 
 ---
 
-# 📂 Project Workflow
 
-```
-Student Depression Dataset
-            │
-            ▼
-     Data Cleaning
-            │
-            ▼
- Feature Engineering
-            │
-            ▼
- Exploratory Data Analysis
-            │
             ▼
  Data Preprocessing
             │
