@@ -87,7 +87,20 @@ The dataset contains demographic, academic, lifestyle, and psychological attribu
 
 ---
 
+# 📂 Project Workflow
 
+```
+Student Depression Dataset
+            │
+            ▼
+     Data Cleaning
+            │
+            ▼
+ Feature Engineering
+            │
+            ▼
+ Exploratory Data Analysis
+            │
             ▼
  Data Preprocessing
             │
@@ -208,6 +221,7 @@ The following metrics were used to evaluate model performance:
 - Precision-Recall Curve
 - Cross Validation Score
 
+Since the dataset is moderately imbalanced, F1-score and Recall were considered more informative than accuracy alone.
 
 ---
 
@@ -336,7 +350,6 @@ The low standard deviation across folds demonstrates that the model produces sta
 **84%**
 
 The final model successfully achieved a strong balance between precision and recall, making it well suited for early depression risk prediction.
-
 ---
 
 # 📌 Feature Importance
@@ -388,7 +401,7 @@ Major observations include:
 | Mean Cross Validation Accuracy | **84.5%** |
 | Mean Cross Validation F1 Score | **0.881** |
 
-
+---
 ---
 
 # 🚀 Installation
@@ -399,43 +412,48 @@ Clone the repository
 git clone https://github.com/iqraafatima/AI-Based-Mental-Health-Risk-Prediction.git
 ```
 
-Move into the project directory
+Navigate to the project directory
 
 ```bash
 cd AI-Based-Mental-Health-Risk-Prediction
 ```
 
-Install dependencies
+Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
+Launch Jupyter Notebook
 
-Open the notebook and execute all cells sequentially.
+```bash
+jupyter notebook
+```
+
+Open the notebook and run all cells sequentially.
 
 ---
 
 # 📦 Required Libraries
 
-- numpy
-- pandas
-- matplotlib
-- seaborn
-- scikit-learn
-- xgboost
-- lightgbm
-- joblib
+- NumPy
+- Pandas
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- XGBoost
+- LightGBM
+- Joblib
 
 ---
 
 # ▶️ Usage
 
 1. Load the Student Depression Dataset.
-2. Run the preprocessing pipeline.
+2. Execute the preprocessing pipeline.
 3. Train and compare all machine learning models.
-4. Perform RandomizedSearchCV for hyperparameter tuning.
-5. Optimize the classification threshold.
+4. Perform hyperparameter tuning using RandomizedSearchCV.
+5. Optimize the classification threshold using the Precision-Recall Curve.
 6. Evaluate the final Random Forest model.
 7. Analyze feature importance and model performance.
 
@@ -444,10 +462,10 @@ Open the notebook and execute all cells sequentially.
 # 💡 Future Improvements
 
 - Develop a real-time web application using Streamlit.
-- Deploy the trained model on a cloud platform.
+- Deploy the trained model for online predictions.
 - Integrate Explainable AI techniques such as SHAP and LIME.
-- Extend the dataset with additional demographic and behavioral features.
-- Explore Deep Learning approaches for performance comparison.
+- Explore deep learning models for comparison.
+- Expand the dataset with additional psychological and behavioral features.
 - Build an early intervention recommendation system based on prediction outcomes.
 
 ---
@@ -469,10 +487,12 @@ Master of Computer Applications (MCA)
 
 Aligarh Muslim University
 
+GitHub: **https://github.com/iqraafatima**
+
 ---
 
 # ⭐ Acknowledgements
 
-This project was developed as part of academic learning and research to explore the application of Machine Learning in mental health prediction. It demonstrates the complete machine learning pipeline, including data preprocessing, model comparison, hyperparameter tuning, threshold optimization, and performance evaluation for early depression risk assessment.
+This project was developed as part of academic learning and research to explore the application of Machine Learning in mental health prediction. It demonstrates a complete machine learning workflow, including data preprocessing, feature engineering, model comparison, hyperparameter tuning, threshold optimization, cross-validation, and feature importance analysis for early depression risk assessment.
 
-If you found this project helpful, consider giving the repository a ⭐ on GitHub.
+If you found this project useful, consider giving it a ⭐ on GitHub.
