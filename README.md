@@ -221,7 +221,6 @@ The following metrics were used to evaluate model performance:
 - Precision-Recall Curve
 - Cross Validation Score
 
-Since the dataset is moderately imbalanced, F1-score and Recall were considered more informative than accuracy alone.
 
 ---
 
@@ -402,26 +401,6 @@ Major observations include:
 | Mean Cross Validation Accuracy | **84.5%** |
 | Mean Cross Validation F1 Score | **0.881** |
 
----
-
-# 📁 Project Structure
-
-```
-AI-Based-Mental-Health-Risk-Prediction
-│
-├── Student_Depression_Dataset.csv
-├── Mental_Health_Risk_Assessment.ipynb
-├── README.md
-├── requirements.txt
-├── images/
-│   ├── correlation_heatmap.png
-│   ├── confusion_matrix.png
-│   ├── feature_importance.png
-│   ├── precision_recall_curve.png
-│   └── model_comparison.png
-└── saved_models/
-    └── random_forest_model.pkl
-```
 
 ---
 
@@ -430,7 +409,7 @@ AI-Based-Mental-Health-Risk-Prediction
 Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/AI-Based-Mental-Health-Risk-Prediction.git
+git clone https://github.com/iqraafatima/AI-Based-Mental-Health-Risk-Prediction.git
 ```
 
 Move into the project directory
@@ -445,11 +424,6 @@ Install dependencies
 pip install -r requirements.txt
 ```
 
-Launch Jupyter Notebook
-
-```bash
-jupyter notebook
-```
 
 Open the notebook and execute all cells sequentially.
 
